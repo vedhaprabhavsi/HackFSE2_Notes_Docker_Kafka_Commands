@@ -1,0 +1,52 @@
+http://3.95.202.70:8482/command/market/company/register
+
+{
+"companyCode": "1007",
+"companyName": "ABC",
+"ceo": "Arvind Krishna",
+"companyTurnover": 14444443333.05,
+"companyWebsite": "https://www.abc.com/",
+"stockExchangeName": "NSE"
+}
+
+http://3.95.202.70:8482/command/market/company/delete/1012
+
+http://52.90.189.7:8481/query/market/company/getall
+
+http://52.90.189.7:8481/query/market/company/info/1007
+
+http://3.95.202.70:8482/command/market/stock/add
+
+{
+  "companyCode" : "1001",  
+  "price": 6000000000.00,
+  "createdOn" : "2022-10-05T19:07:08.251+0000", 
+  "updatedOn" : "2022-10-05T19:07:08.251+0000"
+}
+
+http://52.90.189.7:8481/query/market/stock/get/1003/2022-07-01/2022-10-16
+
+http://52.90.189.7:8481/query/market/stock/aggregate/1003
+
+http://100.24.5.101:8483/user/signup
+
+{
+    "firstName": "Firstname",
+	"lastName": "Lastname",
+    "dob": "1998-12-31",
+	"username": "firstlast@gmail.com",
+	"password": "TestTe#1"
+}
+
+http://100.24.5.101:8483/user/login
+
+{
+  "username": "testuser@gmail.com",
+	"password": "TestTe#1"
+}
+
+http://100.24.5.101:8483/user/test
+
+Authorization -> Bearer Token
+
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0dXNlckBnbWFpbC5jb20iLCJleHAiOjE2NjU5NjQ0NjAsImlhdCI6MTY2NTkyODQ2MH0.VLm5cGJQfbKzYaNTW9CKMSrg-7vyHT3WW1skkJo3rAQ
