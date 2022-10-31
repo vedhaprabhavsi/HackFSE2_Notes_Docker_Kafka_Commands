@@ -1,0 +1,8 @@
+{
+"companyCode": "GHI2",
+"companyName": "Wipro",
+"ceoName": "Thierry",
+"turnOver": 100000003.01,
+"website": "www.wipro.com",
+"enlistedStockMarkets": "Yes"
+}

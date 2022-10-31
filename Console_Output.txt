@@ -1,0 +1,185 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+12:01:46.888 INFO  [restartedMain] StartupInfoLogger.java:55 - Starting CompanyService using Java 11.0.12 on ctsjava129 with PID 18584 (C:\Users\cogjava201\git\eStock_Company_Service\target\classes started by cogjava201 in C:\Users\cogjava201\git\eStock_Company_Service)
+12:01:46.906 INFO  [restartedMain] SpringApplication.java:640 - No active profile set, falling back to 1 default profile: "default"
+12:01:46.972 INFO  [restartedMain] DeferredLog.java:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:01:46.972 INFO  [restartedMain] DeferredLog.java:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/cogjava201/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.17.2/log4j-slf4j-impl-2.17.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/cogjava201/.m2/repository/org/slf4j/slf4j-reload4j/1.7.36/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+12:01:50.139 INFO  [restartedMain] RepositoryConfigurationDelegate.java:262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+12:01:50.141 INFO  [restartedMain] RepositoryConfigurationDelegate.java:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:01:50.249 INFO  [restartedMain] RepositoryConfigurationExtensionSupport.java:349 - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.estockMarket.companyService.data.CompanyReadRepo. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+12:01:50.314 INFO  [restartedMain] RepositoryConfigurationDelegate.java:201 - Finished Spring Data repository scanning in 159 ms. Found 1 JPA repository interfaces.
+12:01:50.327 INFO  [restartedMain] RepositoryConfigurationDelegate.java:262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+12:01:50.328 INFO  [restartedMain] RepositoryConfigurationDelegate.java:132 - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+12:01:50.338 INFO  [restartedMain] RepositoryConfigurationExtensionSupport.java:349 - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.estockMarket.companyService.data.CompanyJpaRepo. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+12:01:50.358 INFO  [restartedMain] RepositoryConfigurationDelegate.java:201 - Finished Spring Data repository scanning in 29 ms. Found 1 MongoDB repository interfaces.
+12:01:50.690 INFO  [restartedMain] ConfigurationClassPostProcessor.java:426 - Cannot enhance @Configuration bean definition 'org.axonframework.springboot.autoconfig.EventProcessingAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+12:01:50.817 INFO  [restartedMain] GenericScope.java:283 - BeanFactory id=63b59751-66c6-37bc-b037-689e277e569a
+12:01:51.019 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '(inner bean)#7c18fe5e#32' of type [org.axonframework.spring.config.annotation.SpringContextParameterResolverFactoryBuilder$ClasspathParameterResolverFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:01:51.020 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '(inner bean)#7c18fe5e#32' of type [org.axonframework.messaging.annotation.MultiParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:01:51.025 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '(inner bean)#656355d5#32' of type [org.axonframework.spring.config.annotation.SpringBeanDependencyResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:01:51.026 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '(inner bean)#6fbbabc7' of type [org.axonframework.spring.config.annotation.SpringBeanParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:01:51.097 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '__axon-parameter-resolver-factory' of type [org.axonframework.spring.config.ApplicationContextLookupParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:01:51.097 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '__axon-parameter-resolver-factory' of type [org.axonframework.messaging.annotation.MultiParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:01:51.118 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '(inner bean)#68ebd8cf' of type [org.axonframework.spring.config.annotation.SpringHandlerDefinitionBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:01:51.119 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '(inner bean)#68ebd8cf' of type [org.axonframework.messaging.annotation.MultiHandlerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:01:51.122 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '(inner bean)#6c04821f' of type [org.axonframework.spring.config.annotation.SpringHandlerEnhancerDefinitionBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:01:51.123 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '(inner bean)#6c04821f' of type [org.axonframework.messaging.annotation.MultiHandlerEnhancerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:01:51.126 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '__axon-handler-definition' of type [org.axonframework.messaging.annotation.MultiHandlerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:01:52.002 INFO  [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8085 (http)
+12:01:52.021 INFO  [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8085"]
+12:01:52.022 INFO  [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+12:01:52.022 INFO  [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.60]
+12:01:52.382 INFO  [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+12:01:52.383 INFO  [restartedMain] ServletWebServerApplicationContext.java:290 - Root WebApplicationContext: initialization completed in 5410 ms
+12:01:52.940 INFO  [restartedMain] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:01:53.039 INFO  [restartedMain] Version.java:44 - HHH000412: Hibernate ORM core version 5.6.7.Final
+12:01:53.303 INFO  [restartedMain] JavaReflectionManager.java:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+12:01:53.489 WARN  [restartedMain] HikariConfig.java:1042 - HikariPool-1 - maxLifetime is less than 30000ms, setting to default 1800000ms.
+12:01:53.490 INFO  [restartedMain] HikariDataSource.java:110 - HikariPool-1 - Starting...
+12:01:53.947 INFO  [restartedMain] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+12:01:54.005 INFO  [restartedMain] Dialect.java:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+12:01:55.174 INFO  [restartedMain] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:01:55.191 INFO  [restartedMain] AbstractEntityManagerFactoryBean.java:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:01:55.474 INFO  [restartedMain] XStreamAutoConfiguration.java:60 - Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+12:01:55.731 INFO  [restartedMain] XStreamSecurityTypeUtility.java:56 - Constructing wildcard type for base package [com.estockMarket.companyService].
+12:01:55.731 INFO  [restartedMain] XStreamSecurityTypeUtility.java:56 - Constructing wildcard type for base package [org.axonframework.eventhandling.tokenstore].
+12:01:55.732 INFO  [restartedMain] XStreamSecurityTypeUtility.java:56 - Constructing wildcard type for base package [org.axonframework.modelling.saga.repository.jpa].
+12:01:55.751 INFO  [restartedMain] ChainingConverter.java:157 - ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+12:01:55.754 INFO  [restartedMain] ChainingConverter.java:157 - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+12:01:55.756 INFO  [restartedMain] ChainingConverter.java:157 - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+12:01:55.757 INFO  [restartedMain] ChainingConverter.java:157 - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+12:01:56.485 INFO  [restartedMain] SLF4JLogger.java:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+12:01:56.635 INFO  [cluster-rtt-ClusterId{value='62baa05c334ef43983a01fb9', description='null'}-localhost:27017] SLF4JLogger.java:71 - Opened connection [connectionId{localValue:2, serverValue:21}] to localhost:27017
+12:01:56.635 INFO  [cluster-ClusterId{value='62baa05c334ef43983a01fb9', description='null'}-localhost:27017] SLF4JLogger.java:71 - Opened connection [connectionId{localValue:1, serverValue:22}] to localhost:27017
+12:01:56.638 INFO  [cluster-ClusterId{value='62baa05c334ef43983a01fb9', description='null'}-localhost:27017] SLF4JLogger.java:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=46373700}
+12:01:56.722 WARN  [restartedMain] CustomConversions.java:261 - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+12:01:56.844 INFO  [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+12:01:56.864 WARN  [restartedMain] CustomConversions.java:261 - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+12:01:57.131 WARN  [restartedMain] JpaBaseConfiguration.java:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:01:59.916 INFO  [restartedMain] DiscoveryClientOptionalArgsConfiguration.java:68 - Eureka HTTP Client uses RestTemplate.
+12:02:00.065 WARN  [restartedMain] LoadBalancerCacheAutoConfiguration.java:82 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+12:02:00.081 INFO  [restartedMain] EndpointLinksResolver.java:58 - Exposing 16 endpoint(s) beneath base path '/actuator'
+12:02:00.778 INFO  [restartedMain] AxonServerManagedChannel.java:112 - Requesting connection details from localhost:8124
+12:02:01.537 INFO  [restartedMain] AxonServerManagedChannel.java:346 - Successfully connected to localhost:8124
+12:02:01.560 INFO  [restartedMain] ControlChannelImpl.java:167 - Connected instruction stream for context 'default'. Sending client identification
+12:02:01.595 INFO  [restartedMain] QueryChannelImpl.java:233 - QueryChannel for context 'default' connected, 0 registrations resubscribed
+12:02:01.610 INFO  [restartedMain] QueryChannelImpl.java:283 - Registered handler for query 'com.estockMarket.companyService.query.api.queries.GetCompanyQuery : com.estockMarket.companyService.model.CompanyReadModel' in context 'default'
+12:02:01.615 INFO  [restartedMain] QueryChannelImpl.java:283 - Registered handler for query 'com.estockMarket.companyService.query.api.queries.GetCompaniesQuery : java.util.List<com.estockMarket.companyService.model.CompanyReadModel>' in context 'default'
+12:02:01.700 INFO  [restartedMain] CommandChannelImpl.java:187 - CommandChannel for context 'default' connected, 0 command handlers registered
+12:02:01.704 INFO  [restartedMain] CommandChannelImpl.java:248 - Registered handler for command 'com.estockMarket.companyService.command.api.commands.DeleteCompanyCommand' in context 'default'
+12:02:01.713 INFO  [restartedMain] CommandChannelImpl.java:248 - Registered handler for command 'com.estockMarket.companyService.command.api.commands.CompanyCreateCommand' in context 'default'
+12:02:01.877 INFO  [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8085"]
+12:02:01.897 INFO  [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8085 (http) with context path ''
+12:02:01.973 INFO  [EventProcessor[com.estockMarket.companyService.events]-0] TrackingEventProcessor.java:1099 - Worker assigned to segment Segment[0/0] for processing
+12:02:01.988 INFO  [EventProcessor[com.estockMarket.companyService.events]-0] TrackingEventProcessor.java:1160 - Using current Thread for last segment worker: TrackingSegmentWorker{processor=com.estockMarket.companyService.events, segment=Segment[0/0]}
+12:02:02.033 INFO  [EventProcessor[com.estockMarket.companyService.events]-0] TrackingEventProcessor.java:542 - Fetched token: null for segment: Segment[0/0]
+12:02:02.137 INFO  [restartedMain] StartupInfoLogger.java:61 - Started CompanyService in 16.191 seconds (JVM running for 19.482)
+12:02:02.472 INFO  [RMI TCP Connection(1)-127.0.0.1] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:02:02.472 INFO  [RMI TCP Connection(1)-127.0.0.1] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+12:02:02.475 INFO  [RMI TCP Connection(1)-127.0.0.1] FrameworkServlet.java:547 - Completed initialization in 3 ms
+12:11:18.851 INFO  [Thread-5] TrackingEventProcessor.java:675 - Shutdown state set for Processor 'com.estockMarket.companyService.events'.
+12:11:18.858 INFO  [ForkJoinPool.commonPool-worker-3] TrackingEventProcessor.java:681 - Processor 'com.estockMarket.companyService.events' awaiting termination...
+12:11:19.510 INFO  [EventProcessor[com.estockMarket.companyService.events]-0] TrackingEventProcessor.java:349 - Released claim
+12:11:19.512 INFO  [EventProcessor[com.estockMarket.companyService.events]-0] TrackingEventProcessor.java:1028 - Worker for segment Segment[0/0] stopped.
+12:11:19.529 INFO  [Thread-5] CommandChannelImpl.java:276 - Unregistered handler for command 'com.estockMarket.companyService.command.api.commands.DeleteCompanyCommand' in context 'default'
+12:11:19.531 INFO  [Thread-5] CommandChannelImpl.java:276 - Unregistered handler for command 'com.estockMarket.companyService.command.api.commands.CompanyCreateCommand' in context 'default'
+12:11:20.055 INFO  [Thread-5] AbstractEntityManagerFactoryBean.java:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:11:20.064 INFO  [Thread-5] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+12:11:20.101 INFO  [Thread-5] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+12:11:20.573 INFO  [restartedMain] StartupInfoLogger.java:55 - Starting CompanyService using Java 11.0.12 on ctsjava129 with PID 18584 (C:\Users\cogjava201\git\eStock_Company_Service\target\classes started by cogjava201 in C:\Users\cogjava201\git\eStock_Company_Service)
+12:11:20.574 INFO  [restartedMain] SpringApplication.java:640 - No active profile set, falling back to 1 default profile: "default"
+12:11:22.535 INFO  [restartedMain] RepositoryConfigurationDelegate.java:262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+12:11:22.535 INFO  [restartedMain] RepositoryConfigurationDelegate.java:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:11:22.564 INFO  [restartedMain] RepositoryConfigurationExtensionSupport.java:349 - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.estockMarket.companyService.data.CompanyReadRepo. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+12:11:22.599 INFO  [restartedMain] RepositoryConfigurationDelegate.java:201 - Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interfaces.
+12:11:22.608 INFO  [restartedMain] RepositoryConfigurationDelegate.java:262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+12:11:22.608 INFO  [restartedMain] RepositoryConfigurationDelegate.java:132 - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+12:11:22.617 INFO  [restartedMain] RepositoryConfigurationExtensionSupport.java:349 - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.estockMarket.companyService.data.CompanyJpaRepo. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+12:11:22.636 INFO  [restartedMain] RepositoryConfigurationDelegate.java:201 - Finished Spring Data repository scanning in 27 ms. Found 1 MongoDB repository interfaces.
+12:11:22.826 INFO  [restartedMain] ConfigurationClassPostProcessor.java:426 - Cannot enhance @Configuration bean definition 'org.axonframework.springboot.autoconfig.EventProcessingAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+12:11:22.873 INFO  [restartedMain] GenericScope.java:283 - BeanFactory id=63b59751-66c6-37bc-b037-689e277e569a
+12:11:22.925 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '(inner bean)#37dfa71e#32' of type [org.axonframework.spring.config.annotation.SpringContextParameterResolverFactoryBuilder$ClasspathParameterResolverFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:11:22.926 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '(inner bean)#37dfa71e#32' of type [org.axonframework.messaging.annotation.MultiParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:11:22.929 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '(inner bean)#50012cdd#32' of type [org.axonframework.spring.config.annotation.SpringBeanDependencyResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:11:22.930 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '(inner bean)#17db3287' of type [org.axonframework.spring.config.annotation.SpringBeanParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:11:22.961 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '__axon-parameter-resolver-factory' of type [org.axonframework.spring.config.ApplicationContextLookupParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:11:22.961 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '__axon-parameter-resolver-factory' of type [org.axonframework.messaging.annotation.MultiParameterResolverFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:11:22.989 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '(inner bean)#7829654e' of type [org.axonframework.spring.config.annotation.SpringHandlerDefinitionBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:11:22.991 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '(inner bean)#7829654e' of type [org.axonframework.messaging.annotation.MultiHandlerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:11:22.994 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '(inner bean)#6d5e5aae' of type [org.axonframework.spring.config.annotation.SpringHandlerEnhancerDefinitionBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:11:22.995 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '(inner bean)#6d5e5aae' of type [org.axonframework.messaging.annotation.MultiHandlerEnhancerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:11:22.999 INFO  [restartedMain] PostProcessorRegistrationDelegate.java:376 - Bean '__axon-handler-definition' of type [org.axonframework.messaging.annotation.MultiHandlerDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:11:23.153 INFO  [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8085 (http)
+12:11:23.155 INFO  [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8085"]
+12:11:23.155 INFO  [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+12:11:23.156 INFO  [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.60]
+12:11:23.227 INFO  [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+12:11:23.228 INFO  [restartedMain] ServletWebServerApplicationContext.java:290 - Root WebApplicationContext: initialization completed in 2639 ms
+12:11:23.413 INFO  [restartedMain] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:11:23.432 WARN  [restartedMain] HikariConfig.java:1042 - HikariPool-2 - maxLifetime is less than 30000ms, setting to default 1800000ms.
+12:11:23.433 INFO  [restartedMain] HikariDataSource.java:110 - HikariPool-2 - Starting...
+12:11:23.485 INFO  [restartedMain] HikariDataSource.java:123 - HikariPool-2 - Start completed.
+12:11:23.487 INFO  [restartedMain] Dialect.java:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+12:11:23.709 INFO  [restartedMain] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12:11:23.710 INFO  [restartedMain] AbstractEntityManagerFactoryBean.java:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:11:23.898 INFO  [restartedMain] XStreamAutoConfiguration.java:60 - Initializing an XStream instance since none was found. The auto configuration base packages will be used as wildcards for the XStream security settings.
+12:11:23.911 INFO  [restartedMain] XStreamSecurityTypeUtility.java:56 - Constructing wildcard type for base package [com.estockMarket.companyService].
+12:11:23.912 INFO  [restartedMain] XStreamSecurityTypeUtility.java:56 - Constructing wildcard type for base package [org.axonframework.eventhandling.tokenstore].
+12:11:23.912 INFO  [restartedMain] XStreamSecurityTypeUtility.java:56 - Constructing wildcard type for base package [org.axonframework.modelling.saga.repository.jpa].
+12:11:23.929 INFO  [restartedMain] ChainingConverter.java:157 - ContentTypeConverter of type [class org.axonframework.serialization.xml.Dom4JToByteArrayConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+12:11:23.931 INFO  [restartedMain] ChainingConverter.java:157 - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToDom4jConverter] is ignored. It seems to rely on a class that is not available in the class loader: org/dom4j/Document
+12:11:23.933 INFO  [restartedMain] ChainingConverter.java:157 - ContentTypeConverter of type [class org.axonframework.serialization.xml.XomToStringConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+12:11:23.934 INFO  [restartedMain] ChainingConverter.java:157 - ContentTypeConverter of type [class org.axonframework.serialization.xml.InputStreamToXomConverter] is ignored. It seems to rely on a class that is not available in the class loader: nu/xom/Document
+12:11:24.106 INFO  [restartedMain] SLF4JLogger.java:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+12:11:24.114 INFO  [cluster-ClusterId{value='62baa294334ef43983a01fba', description='null'}-localhost:27017] SLF4JLogger.java:71 - Opened connection [connectionId{localValue:4, serverValue:26}] to localhost:27017
+12:11:24.114 INFO  [cluster-rtt-ClusterId{value='62baa294334ef43983a01fba', description='null'}-localhost:27017] SLF4JLogger.java:71 - Opened connection [connectionId{localValue:3, serverValue:25}] to localhost:27017
+12:11:24.114 INFO  [cluster-ClusterId{value='62baa294334ef43983a01fba', description='null'}-localhost:27017] SLF4JLogger.java:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1911701}
+12:11:24.118 WARN  [restartedMain] CustomConversions.java:261 - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+12:11:24.187 INFO  [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+12:11:24.195 WARN  [restartedMain] CustomConversions.java:261 - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+12:11:24.287 WARN  [restartedMain] JpaBaseConfiguration.java:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12:11:25.769 INFO  [restartedMain] DiscoveryClientOptionalArgsConfiguration.java:68 - Eureka HTTP Client uses RestTemplate.
+12:11:25.833 WARN  [restartedMain] LoadBalancerCacheAutoConfiguration.java:82 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+12:11:25.846 INFO  [restartedMain] EndpointLinksResolver.java:58 - Exposing 16 endpoint(s) beneath base path '/actuator'
+12:11:25.953 INFO  [restartedMain] AxonServerManagedChannel.java:112 - Requesting connection details from localhost:8124
+12:11:25.970 INFO  [restartedMain] AxonServerManagedChannel.java:346 - Successfully connected to localhost:8124
+12:11:25.971 INFO  [restartedMain] ControlChannelImpl.java:167 - Connected instruction stream for context 'default'. Sending client identification
+12:11:25.973 INFO  [restartedMain] QueryChannelImpl.java:233 - QueryChannel for context 'default' connected, 0 registrations resubscribed
+12:11:25.973 INFO  [restartedMain] QueryChannelImpl.java:283 - Registered handler for query 'com.estockMarket.companyService.query.api.queries.GetCompanyQuery : com.estockMarket.companyService.model.CompanyReadModel' in context 'default'
+12:11:25.975 INFO  [restartedMain] QueryChannelImpl.java:283 - Registered handler for query 'com.estockMarket.companyService.query.api.queries.GetCompaniesQuery : java.util.List<com.estockMarket.companyService.model.CompanyReadModel>' in context 'default'
+12:11:26.034 INFO  [restartedMain] CommandChannelImpl.java:187 - CommandChannel for context 'default' connected, 0 command handlers registered
+12:11:26.035 INFO  [restartedMain] CommandChannelImpl.java:248 - Registered handler for command 'com.estockMarket.companyService.command.api.commands.DeleteCompanyCommand' in context 'default'
+12:11:26.037 INFO  [restartedMain] CommandChannelImpl.java:248 - Registered handler for command 'com.estockMarket.companyService.command.api.commands.CompanyCreateCommand' in context 'default'
+12:11:26.070 INFO  [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8085"]
+12:11:26.073 INFO  [EventProcessor[com.estockMarket.companyService.events]-0] TrackingEventProcessor.java:1099 - Worker assigned to segment Segment[0/0] for processing
+12:11:26.075 INFO  [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8085 (http) with context path ''
+12:11:26.097 INFO  [EventProcessor[com.estockMarket.companyService.events]-0] TrackingEventProcessor.java:1160 - Using current Thread for last segment worker: TrackingSegmentWorker{processor=com.estockMarket.companyService.events, segment=Segment[0/0]}
+12:11:26.112 INFO  [EventProcessor[com.estockMarket.companyService.events]-0] TrackingEventProcessor.java:542 - Fetched token: null for segment: Segment[0/0]
+12:11:26.309 INFO  [restartedMain] StartupInfoLogger.java:61 - Started CompanyService in 6.009 seconds (JVM running for 583.65)
+12:11:26.317 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+
+----------------
+
+dd5caa41-dd18-4bb9-b2c8-cccb7c7bc1f6
+

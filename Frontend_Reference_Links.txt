@@ -1,0 +1,50 @@
+Issue to fix initial angular issue (Unauthorized) -> FullyQualifiedErrorId : unauthorized access => https://www.c-sharpcorner.com/article/how-to-fix-ps1-can-not-be-loaded-because-running-scripts-is-disabled-on-this-sys/
+
+
+set-ExecutionPolicy RemoteSigned -Scope CurrentUser 
+
+Get-ExecutionPolicy
+
+Get-ExecutionPolicy -list  
+
+ng --version
+
+
+
+npm init
+
+
+
+
+ng --version
+
+Angular CLI: 12.2.12
+Node: 14.18.1
+Package Manager: npm 6.14.15
+OS: win32 x64
+
+Angular:
+...
+
+
+PS C:\Users\cogjava201\eStock_Market_Angular_Source_Code\eStock_market_angular> npm init
+PS C:\Users\cogjava201\eStock_Market_Angular_Source_Code\eStock_market_angular> npm -v
+PS C:\Users\cogjava201\eStock_Market_Angular_Source_Code\eStock_market_angular> npm --version
+PS C:\Users\cogjava201\eStock_Market_Angular_Source_Code\eStock_market_angular> npm --version
+PS C:\Users\cogjava201\eStock_Market_Angular_Source_Code\eStock_market_angular> npm install -g npm
+PS C:\Users\cogjava201\eStock_Market_Angular_Source_Code\eStock_market_angular> npm i -g npm
+PS C:\Users\cogjava201\eStock_Market_Angular_Source_Code\eStock_market_angular> npm i -g @angular/cli
+PS C:\Users\cogjava201\eStock_Market_Angular_Source_Code\eStock_market_angular> ng new eStock-market --no-strict
+(or)
+C:\Users\cogjava201\eStock_Market_Angular_Source_Code>ng new eStock-market
+C:\Users\cogjava201\eStock_Market_Angular_Source_Code>cd eStock-market
+C:\Users\cogjava201\eStock_Market_Angular_Source_Code\eStock-market>ng serve
+
+
+To install Bootstrap:
+npm install ngx-bootstrap bootstrap --save
+
+ng add @angular/material
+
+Create component -> Navigate to components folder & enter ng generate component <component-name>
+

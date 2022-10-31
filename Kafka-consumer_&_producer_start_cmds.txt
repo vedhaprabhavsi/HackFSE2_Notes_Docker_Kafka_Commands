@@ -1,0 +1,35 @@
+1) Go to C:\kafka_2.12-2.4.1\bin\windows
+
+2) cmd.exe
+
+3) Launch Zookeeper
+
+zookeeper-server-start.bat ..\..\config\zookeeper.properties
+
+4) Launch Kafka server
+
+kafka-server-start.bat ..\..\config\server.properties
+
+5) Create topics
+
+kafka-topics.bat --create --topic createCompany --bootstrap-server localhost:9092
+kafka-topics.bat --create --topic removeCompany --bootstrap-server localhost:9092
+kafka-topics.bat --create --topic createStock --bootstrap-server localhost:9092
+kafka-topics.bat --create --topic removeStock --bootstrap-server localhost:9092
+kafka-topics.bat --create --topic updateStock --bootstrap-server localhost:9092
+
+6) List the topics
+
+kafka-topics.bat --list --bootstrap-server localhost:9092
+
+7) Enter the below command to start consumer:
+
+kafka-console-consumer.bat --topic createCompany --bootstrap-server localhost:9092
+kafka-console-consumer.bat --topic removeCompany --bootstrap-server localhost:9092
+kafka-console-consumer.bat --topic createStock --bootstrap-server localhost:9092
+
+8) Enter the below command to start producer:
+
+kafka-console-producer.bat --topic createCompany --broker-list localhost:9092
+kafka-console-producer.bat --topic removeCompany --broker-list localhost:9092
+kafka-console-producer.bat --topic createStock --broker-list localhost:9092

@@ -1,0 +1,73 @@
+Command to create topics:
+---------------------------
+
+.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic createCompany
+
+.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic removeCompany
+
+.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic createStock
+
+.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic updateStock
+
+.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic removeStock
+
+createCompany
+removeCompany
+createStock
+updateStock
+removeStock
+
+======================================================================
+
+Command to list the topics created:
+-----------------------------------
+
+.\bin\windows\kafka-topics.bat --list --zookeeper localhost:2181
+
+======================================================================
+
+Commands with output:
+---------------------
+Microsoft Windows [Version 10.0.19043.1526]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\kafka_2.12-2.4.1>./bin/windows/kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic createCompany
+'.' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\kafka_2.12-2.4.1>.\bin\windows\kafka-topics.bat --list --zookeeper localhost:2181
+
+C:\kafka_2.12-2.4.1>.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic createCompany
+Created topic createCompany.
+
+C:\kafka_2.12-2.4.1>.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic removeCompany
+Created topic removeCompany.
+
+C:\kafka_2.12-2.4.1>.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic createStock
+Created topic createStock.
+
+C:\kafka_2.12-2.4.1>.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic updateStock
+Created topic updateStock.
+
+C:\kafka_2.12-2.4.1>.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic removeStock
+Created topic removeStock.
+
+C:\kafka_2.12-2.4.1>.\bin\windows\kafka-topics.bat --list --zookeeper localhost:2181
+createCompany
+createStock
+removeCompany
+removeStock
+updateStock
+
+C:\kafka_2.12-2.4.1>
+
+
+kafka-topics.bat --zookeeper localhost:2181 --delete --topic updateStock
+
+kafka-topics.bat --zookeeper localhost:2181 --delete --topic removeStock
+
+kafka-topics.bat --zookeeper localhost:2181 --delete --topic createStock
+
+kafka-topics.bat --zookeeper localhost:2181 --delete --topic removeCompany
+
+kafka-topics.bat --zookeeper localhost:2181 --delete --topic createCompany

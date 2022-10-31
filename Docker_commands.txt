@@ -1,0 +1,62 @@
+docker --version
+
+docker ps
+
+docker network ls
+
+docker-compose --version
+
+docker-compose up -d
+
+To remove all the containers -> docker-compose down -v
+
+docker-compose up --build
+
+docker-compose -f docker-compose.yml up -d
+
+Command for not restarting always MySQL -> C:\Program Files\Java\jdk-11.0.12\bin
+
+====================================================================================
+
+docker login
+
+docker image ls
+
+docker tag estockmarket-command-docker.jar vedhaprabhavsi/estockmarket-command-docker.jar
+
+docker push vedhaprabhavsi/estockmarket-command-docker.jar
+
+docker pull  vedhaprabhavsi/estockmarket-command-docker.jar
+
+docker run -p 8482:8080 vedhaprabhavsi/estockmarket-command-docker.jar
+
+
+
+
+
+clean package docker:build -DpushImage
+
+
+
+
+
+
+
+cd C:\Users\cogjava201\eStock_Market_Source_Code\eStock_Market_Source_Code\estockmarket-query
+
+docker build -t vedhaprabhavsi/estockmarket-query .
+
+docker push vedhaprabhavsi/estockmarket-query
+
+docker build -t vedhaprabhavsi/estockmarket-command .
+
+docker push vedhaprabhavsi/estockmarket-command
+
+docker build -t vedhaprabhavsi/user-management .
+
+docker push vedhaprabhavsi/user-management
+
+
+
+
+Personal access toke in GitHub prabhavedhavsi -> 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

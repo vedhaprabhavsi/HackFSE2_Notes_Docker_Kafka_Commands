@@ -1,0 +1,20 @@
+Access Key ID - AKIA45E3IFXCSWNTW45H
+Secret Access Key - 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
+
+
+
+ECR -> estockmarketcommand_docker_registry
+887236341189.dkr.ecr.us-east-1.amazonaws.com/estockmarketcommand_docker_registry
+
+
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 887236341189.dkr.ecr.us-east-1.amazonaws.com
+
+
+
+vedhaprabhavsi/estockmarket-query:tagname
+
+query -> 8481 -> 52.90.189.7
+command -> 8482 -> 54.227.230.238 (3.95.202.70) - runtask-8
+usr -> 8483 -> 100.24.5.101
+eureka -> 8090 -> http://44.204.22.214:8090/
+api-gateway -> 8989 -> 34.226.150.210

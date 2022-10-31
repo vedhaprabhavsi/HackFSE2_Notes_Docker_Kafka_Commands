@@ -1,0 +1,16 @@
+Go to path C:\kafka_2.12-2.4.1
+
+Enter cmd in address bar
+
+Enter the below command
+
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+--------------------------------------------------------------------------
+
+Go to Kafka installed path -> C:\kafka_2.12-2.4.1
+
+Enter cmd in address bar and enter the below command in Command prompt
+
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+

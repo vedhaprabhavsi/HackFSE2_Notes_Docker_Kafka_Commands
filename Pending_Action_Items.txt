@@ -1,0 +1,6 @@
+Pending Items - Front end:
+---------------------------
+Field validation is not happening
+
+Form validation needs to be validated
+
